@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="home">
+    <section id="top">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5 class="font-weight-normal">Spike is the <i>simple</i> and <i>secure</i> proxy for developers in a corporate environment.<br /><br /></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><i class="fa fa-building fa-2x text-dark"></i>Corporate Proxy</p>
+                                <p><i class="fa fa-sitemap fa-2x text-dark"></i>Auto Network Switching</p>
+                                <p><i class="fa fa-sign-in fa-2x text-dark"></i>Launch at Login</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><i class="fa fa-shield fa-2x text-dark"></i>Secured Credentials</p>
+                                <p><i class="fa fa-balance-scale fa-2x text-dark"></i>Rules Engine</p>
+                                <p><i class="fa fa-chevron-circle-down fa-2x text-dark"></i>Status Bar Integration</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section id="getting-started">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Getting started</h3>
+                    <p class="lead">Installation couldn&apos;t be easier, thanks to Homebrew and Cask!</p>
+                    <pre><code class="bash">brew tap burnsra/tap<br />brew cask install spike</code></pre>
+                    <p class="lead">You may also download the application directly...</p>
+                    <p><a class="btn btn-success btn-sm" href="#getting-started">Get Spike</a></p>
+                </div>
+            </div>
+        </section>
+        <br />
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Configuration</h3>
+                <p class="lead">Coming soon...</p>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Development Tools</h3>
+                <p class="lead">Sample configurations for various development tools.</p>
+            </div>
+        </div>
+        <div id="codeSamples">
+            {% for sample in site.data.code_samples.detail %}
+            <div class="row">
+                <div class="col-md-12"><hr /></div>
+                <div class="col-md-3">
+                    <h6>{{ sample.name }}</h6>
+                </div>
+                <div class="col-md-3">
+                    <p>{{ sample.files }}</p>
+                </div>
+                <div class="col-md-6">
+                    <pre><code class="{{ sample.lang }}">{{ sample.value }}</code></pre>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

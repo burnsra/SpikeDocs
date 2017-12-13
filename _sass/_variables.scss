@@ -1,0 +1,6 @@
+$font-size-base: 1rem !default;
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$fa-font-path: "../assets/vendor" !default;
+@import "../node_modules/font-awesome/scss/variables";

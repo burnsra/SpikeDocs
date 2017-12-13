@@ -29,3 +29,7 @@ exclude:
    - yarn.lock
    - node_modules
    - vendor
+sass:
+  load_paths:
+    - _sass
+    - node_modules

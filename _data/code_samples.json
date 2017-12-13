@@ -1,0 +1,57 @@
+{
+  "detail": [{
+      "name": "atom",
+      "files": "~/.apmrc",
+      "lang": "bash",
+      "value": "http-proxy=http://127.0.0.1:3128\nhttps-proxy=http://127.0.0.1:3128"
+    },
+    {
+      "name": "curl",
+      "files": "~/.curlrc",
+      "lang": "bash",
+      "value": "proxy=http://127.0.0.1:3128"
+    },
+    {
+      "name": "git",
+      "files": "~/.gitconfig",
+      "lang": "bash",
+      "value": "[http]\n\tproxy = http://127.0.0.1:3128\n[https]\n\tproxy = http://127.0.0.1:3128"
+    },
+    {
+      "name": "gradle",
+      "files": "~/.gradle/gradle.properties",
+      "lang": "bash",
+      "value": "systemProp.http.proxyHost=127.0.0.1\nsystemProp.http.proxyPort=3128\nsystemProp.https.proxyHost=127.0.0.1\nsystemProp.https.proxyPort=3128"
+    },
+    {
+      "name": "maven",
+      "files": "~/.m2/settings.xml",
+      "lang": "xml",
+      "value": "&lt;settings&gt;\n\t&lt;proxies&gt;\n\t\t&lt;proxy&gt;\n\t\t\t&lt;id&gt;local-proxy-http&lt;/id&gt;\n\t\t\t&lt;active&gt;true&lt;/active&gt;\n\t\t\t&lt;protocol&gt;http&lt;/protocol&gt;\n\t\t\t&lt;host&gt;127.0.0.1&lt;/host&gt;\n\t\t\t&lt;port&gt;3128&lt;/port&gt;\n\t\t&lt;/proxy&gt;\n\t\t&lt;proxy&gt;\n\t\t\t&lt;id&gt;local-proxy-https&lt;/id&gt;\n\t\t\t&lt;active&gt;true&lt;/active&gt;\n\t\t\t&lt;protocol&gt;https&lt;/protocol&gt;\n\t\t\t&lt;host&gt;127.0.0.1&lt;/host&gt;\n\t\t\t&lt;port&gt;3128&lt;/port&gt;\n\t\t&lt;/proxy&gt;\n\t&lt;/proxies&gt;\n&lt;/settings&gt;"
+    },
+    {
+      "name": "npm",
+      "files": "~/.npmrc",
+      "lang": "bash",
+      "value": "proxy=http://127.0.0.1:3128\nhttps-proxy=http://127.0.0.1:3128"
+    },
+    {
+      "name": "ruby",
+      "files": "~/.gemrc",
+      "lang": "bash",
+      "value": "http_proxy: http://127.0.0.1:3128\nhttps_proxy: http://127.0.0.1:3128"
+    },
+    {
+      "name": "shell",
+      "files": "~/.bashrc,~/.zshrc",
+      "lang": "bash",
+      "value": "export http_proxy=http://127.0.0.1:3128\nexport https_proxy=http://127.0.0.1:3128\nexport HTTP_PROXY=http://127.0.0.1:3128\nexport HTTPS_PROXY=http://127.0.0.1:3128"
+    },
+    {
+      "name": "wget",
+      "files": "~/.wgetrc",
+      "lang": "bash",
+      "value": "use_proxy=yes\nhttp_proxy=http://127.0.0.1:3128\nhttps_proxy=http://127.0.0.1:3128"
+    }
+    ]
+}
