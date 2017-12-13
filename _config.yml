@@ -26,3 +26,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - package.json
+   - yarn.lock
+   - node_modules
