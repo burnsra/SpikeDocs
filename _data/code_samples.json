@@ -45,7 +45,7 @@
       "name": "shell",
       "files": "~/.bashrc,~/.zshrc",
       "lang": "bash",
-      "value": "export http_proxy=http://127.0.0.1:3128\nexport https_proxy=http://127.0.0.1:3128\nexport HTTP_PROXY=http://127.0.0.1:3128\nexport HTTPS_PROXY=http://127.0.0.1:3128"
+      "value": "export ftp_proxy=http://127.0.0.1:3128\nexport http_proxy=http://127.0.0.1:3128\nexport https_proxy=http://127.0.0.1:3128\nexport FTP_PROXY=http://127.0.0.1:3128\nexport HTTP_PROXY=http://127.0.0.1:3128\nexport HTTPS_PROXY=http://127.0.0.1:3128"
     },
     {
       "name": "wget",
