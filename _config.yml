@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Spike
 email: contact@robertburns.me
-description: Spike is he simple and secure proxy for developers in a corporate environment.
+description: Spike is the simple and secure proxy for developers in a corporate environment.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.spikeproxy.com" # the base hostname & protocol for your site
 
